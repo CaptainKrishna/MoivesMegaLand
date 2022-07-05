@@ -48,8 +48,8 @@ h1 {
   font-size: 3rem;
   letter-spacing: 1px;
   background: linear-gradient(
-    45deg,
-    #0ea5e9,
+    90deg,
+    #fff,
     rgba(190, 187, 0, 0.119) 100%
   );
   background-clip: text;
@@ -59,18 +59,11 @@ h1 {
 }
 
 .search {
-  width: 71%;
-  margin: 4rem 0 2rem;
-
+  width: 50%;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: center;
-
-  padding: 2rem 2rem;
-  border-radius: 1rem;
-  background: #fff;
-  -webkit-box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
-  box-shadow: 5px 5px 7px #1c1d1f, -5px -5px 7px #222527;
 }
 
 .search input {
@@ -80,10 +73,7 @@ h1 {
   font-family: var(--font-raleway);
   font-weight: 500;
   padding:0.8rem;
-
-  outline: none;
-  color: #a1a1a1;
-  
+  outline: none;  
 }
 
 .search img {
