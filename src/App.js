@@ -1,5 +1,6 @@
 import "./App.css";
 import MovieCard from "./MovieCard";
+import Header from "./Headder";
 import SearchIcon from "./search.svg";
 import React, { useState, useEffect } from "react";
 
@@ -22,6 +23,8 @@ const App = () => {
   };
 
   return (
+    <>
+    <Header title="MoviesMegaLand"/>
     <div className="app">
       <h1>MoviesMegaLand</h1>
 
@@ -50,6 +53,7 @@ const App = () => {
         </div>
       )}
     </div>
+    </>
   );
 };
 
