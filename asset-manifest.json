@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/MoivesMegaLand/static/css/main.5d1ed916.css",
+    "main.js": "/MoivesMegaLand/static/js/main.674f9420.js",
+    "static/js/787.28cb0dcd.chunk.js": "/MoivesMegaLand/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/MoivesMegaLand/index.html",
+    "static/media/search.svg": "/MoivesMegaLand/static/media/search.b416605642fcb3f2447edc96c1a80e05.svg",
+    "main.5d1ed916.css.map": "/MoivesMegaLand/static/css/main.5d1ed916.css.map",
+    "main.674f9420.js.map": "/MoivesMegaLand/static/js/main.674f9420.js.map",
+    "787.28cb0dcd.chunk.js.map": "/MoivesMegaLand/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d1ed916.css",
+    "static/js/main.674f9420.js"
+  ]
+}
