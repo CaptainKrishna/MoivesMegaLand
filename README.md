@@ -14,3 +14,5 @@
 ![Headder React App](/image/2image.png)    
 
 <hr/>
+
+This website is use for serching movies there rating online using Imdb API database.

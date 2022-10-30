@@ -26,17 +26,18 @@ const App = () => {
   return (
     <>
     <Header title="MoviesMegaLand"/>
-    <div className="search mt-0 md:mt-12 bg-white md:rounded-full px-9 shadow-3xl  ">
+    <div  className="search mt-0 md:mt-12 bg-white md:rounded-full px-9 shadow-3xl  " >
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           placeholder="Search for movies"
         />
+        <div onClick={() => searchMovies(searchTerm)}  >
         <img
           src={SearchIcon}
           alt="search"
-          onClick={() => searchMovies(searchTerm)}
         />
+        </div>
       </div>
     
     
